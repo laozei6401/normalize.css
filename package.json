@@ -1,0 +1,33 @@
+{
+  "name": "@laozei/normalize.css",
+  "main": "lib/index.min.css",
+  "license": "MIT",
+  "version": "1.0.1",
+  "description": "Reset your website to a reasonable style",
+  "keywords": [
+    "normalize.css",
+    "reset.css",
+    "样式重置",
+    "重置"
+  ],
+  "homepage": "https://github.com/laozei6401/normalize.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laozei6401/normalize.css.git"
+  },
+  "scripts": {
+    "bootstrap": "rimraf node_modules && npm install",
+    "dev": "sass --watch index.scss:lib/index.css",
+    "build": "rimraf lib && npm run build:min & npm run build:normal",
+    "build:min": "sass index.scss:lib/index.min.css -s compressed --no-source-map",
+    "build:normal": "sass index.scss:lib/index.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "1.25.0",
+    "rimraf": "^6.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
