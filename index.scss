@@ -37,6 +37,11 @@ section {
   display: block;
 }
 
+menu,
+pre {
+  margin: 0;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -63,6 +68,7 @@ li {
 
 table {
   text-indent: 0;
+  border-spacing: 0;
   border-collapse: collapse;
 }
 
@@ -121,9 +127,10 @@ textarea {
   max-width: 100%;
 }
 
-button,
 input,
-select {
+select,
+textarea,
+button {
   margin: 0;
 }
 
@@ -138,7 +145,6 @@ input {
 }
 
 textarea {
-  margin: 0;
   overflow: auto;
   resize: vertical;
 }
