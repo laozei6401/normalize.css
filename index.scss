@@ -37,8 +37,7 @@ section {
   display: block;
 }
 
-menu,
-pre {
+menu {
   margin: 0;
 }
 
@@ -63,7 +62,8 @@ ul {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 table {
@@ -111,10 +111,15 @@ strong {
 
 code,
 kbd,
-pre,
 samp {
   font-size: 1em;
   font-family: monospace, monospace;
+}
+
+pre {
+  margin: 0;
+  font-size: 1em;
+  font-family: inherit;
 }
 
 iframe,

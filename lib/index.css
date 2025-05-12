@@ -34,6 +34,10 @@ section {
   display: block;
 }
 
+menu {
+  margin: 0;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -55,11 +59,13 @@ ul {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 table {
   text-indent: 0;
+  border-spacing: 0;
   border-collapse: collapse;
 }
 
@@ -100,10 +106,15 @@ strong {
 
 code,
 kbd,
-pre,
 samp {
   font-size: 1em;
   font-family: monospace, monospace;
+}
+
+pre {
+  margin: 0;
+  font-size: 1em;
+  font-family: inherit;
 }
 
 iframe,
@@ -116,9 +127,10 @@ textarea {
   max-width: 100%;
 }
 
-button,
 input,
-select {
+select,
+textarea,
+button {
   margin: 0;
 }
 
@@ -133,7 +145,6 @@ input {
 }
 
 textarea {
-  margin: 0;
   overflow: auto;
   resize: vertical;
 }
