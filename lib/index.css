@@ -58,7 +58,7 @@ ul {
   padding-left: 0;
 }
 
-li {
+ul {
   list-style-type: none;
   list-style-position: inside;
 }
