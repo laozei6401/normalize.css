@@ -115,6 +115,7 @@ pre {
   margin: 0;
   font-size: 1em;
   font-family: inherit;
+  white-space: pre-wrap;
 }
 
 iframe,
