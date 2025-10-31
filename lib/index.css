@@ -16,7 +16,7 @@ body {
   margin: 0;
   color: #252933;
   font-size: 16px;
-  font-family: -apple-system, PingFang SC, Roboto, Microsoft YaHei, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, PingFang SC, blinkmacsystemfont, Segoe UI, roboto, Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color emoji;
   word-break: break-word;
 }
 
