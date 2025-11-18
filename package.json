@@ -2,7 +2,7 @@
   "name": "@laozei/normalize.css",
   "main": "lib/index.min.css",
   "license": "MIT",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Reset your website to a reasonable style",
   "keywords": [
     "normalize.css",
