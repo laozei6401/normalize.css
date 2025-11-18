@@ -19,7 +19,7 @@
     "patch": "npm version patch",
     "bootstrap": "rimraf node_modules && npm install",
     "dev": "sass --watch index.scss:lib/index.css",
-    "build": "rimraf lib && npm run build:min; npm run build:normal",
+    "build": "rimraf lib && npm run build:min && npm run build:normal",
     "build:min": "sass index.scss:lib/index.min.css -s compressed --no-source-map",
     "build:normal": "sass index.scss:lib/index.css --no-source-map"
   },
