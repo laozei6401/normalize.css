@@ -5,7 +5,6 @@
 }
 
 html {
-  line-height: 1.15;
   -moz-tab-size: 4;
   tab-size: 4;
   -webkit-text-size-adjust: 100%;
@@ -15,7 +14,8 @@ html {
 body {
   margin: 0;
   color: #1d1d1f;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.15;
   font-family: -apple-system, PingFang SC, blinkmacsystemfont, Segoe UI, roboto, Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color emoji;
   word-break: break-all;
 }
@@ -36,11 +36,6 @@ section {
 
 menu {
   margin: 0;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 
 hr {
